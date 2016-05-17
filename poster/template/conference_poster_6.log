@@ -1,0 +1,434 @@
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2014.6.6)  16 MAY 2016 23:13
+entering extended mode
+**conference_poster_6.tex
+(D:\MyProject\高二研学\nlp\poster\template\conference_poster_6.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(D:\MyProject\高二研学\nlp\poster\template\a0poster.cls
+Document Class: a0poster 1997/05/07 v1.21b a0poster class (GK, MW)
+(C:\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(C:\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\xkoord=\count88
+\ykoord=\count89
+\xscale=\count90
+\yscale=\count91
+\tausch=\dimen103
+
+(D:\MyProject\高二研学\nlp\poster\template\a0size.sty
+File: a0size.sty 1997/05/06 v1.21b a0poster class (GK, MW)
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 218.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 218.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 218.
+\big@size=\dimen104
+)
+Requested font "cmr17" at 24.88pt
+ -> cmr17
+)
+(C:\CTEX\MiKTeX\tex\latex\tools\multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count92
+\mult@box=\box26
+\multicol@leftmargin=\dimen105
+\c@unbalance=\count93
+\c@collectmore=\count94
+\doublecol@number=\count95
+\multicoltolerance=\count96
+\multicolpretolerance=\count97
+\full@width=\dimen106
+\page@free=\dimen107
+\premulticols=\dimen108
+\postmulticols=\dimen109
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count98
+\c@finalcolumnbadness=\count99
+\last@try=\dimen110
+\multicolovershoot=\dimen111
+\multicolundershoot=\dimen112
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count100
+)
+(C:\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(C:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(C:\CTEX\MiKTeX\tex\xelatex\xetex-def\xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(C:\CTEX\MiKTeX\tex\latex\xcolor\svgnam.def
+File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+))
+(C:\CTEX\MiKTeX\tex\latex\psnfss\times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(C:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+)
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(C:\CTEX\MiKTeX\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen115
+\lightrulewidth=\dimen116
+\cmidrulewidth=\dimen117
+\belowrulesep=\dimen118
+\belowbottomsep=\dimen119
+\aboverulesep=\dimen120
+\abovetopsep=\dimen121
+\cmidrulesep=\dimen122
+\cmidrulekern=\dimen123
+\defaultaddspace=\dimen124
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen125
+\@belowrulesep=\dimen126
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen127
+)
+(C:\CTEX\MiKTeX\tex\latex\caption\caption.sty
+Package: caption 2011/11/10 v3.2e Customizing captions (AR)
+
+(C:\CTEX\MiKTeX\tex\latex\caption\caption3.sty
+Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
+)
+\c@ContinuedFloat=\count105
+)
+(C:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(C:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(C:\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen134
+))
+(C:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen135
+)
+(C:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count106
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count107
+\leftroot@=\count108
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count109
+\DOTSCASE@=\count110
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen136
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count111
+\c@MaxMatrixCols=\count112
+\dotsspace@=\muskip10
+\c@parentequation=\count113
+\dspbrk@lvl=\count114
+\tag@help=\toks17
+\row@=\count115
+\column@=\count116
+\maxfields@=\count117
+\andhelp@=\toks18
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
+\@envbody=\toks19
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(C:\CTEX\MiKTeX\tex\latex\ams\classes\amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip48
+\thm@postskip=\skip49
+\thm@headsep=\skip50
+\dth@everypar=\toks26
+)
+(C:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(C:\CTEX\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+\wrapoverhang=\dimen143
+\WF@size=\dimen144
+\c@WF@wrappedlines=\count118
+\WF@box=\box54
+\WF@everypar=\toks27
+Package: wrapfig 2003/01/31  v 3.6
+)
+(D:\MyProject\高二研学\nlp\poster\template\conference_poster_6.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 39.
+
+(C:\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+Requested font "ptmr7t" at 24.88pt
+ -> ptmr7t
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Requested font "ptmr7t" at 74.3pt
+ -> ptmr7t
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <74.3> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+Requested font "ptmb7t" at 74.3pt
+ -> ptmb7t
+Requested font "ptmr7t" at 61.92pt
+ -> ptmr7t
+Requested font "ptmri7t" at 61.92pt
+ -> ptmri7t
+Requested font "ptmr7t" at 51.6pt
+ -> ptmr7t
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <51.6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+Requested font "ptmb7t" at 51.6pt
+ -> ptmb7t
+Requested font "ptmr7t" at 35.83pt
+ -> ptmr7t
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 55.
+
+(C:\CTEX\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Requested font "pcrr7t" at 35.83pt
+ -> pcrr7t
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
+
+ []
+
+File: figures/logo.png Graphic file (type QTm)
+<use  "figures/logo.png" >
+Overfull \hbox (42.96362pt too wide) in paragraph at lines 59--60
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Overfull \hbox (19.72723pt too wide) in paragraph at lines 50--61
+[][] [] 
+ []
+
+Requested font "ptmr7t" at 20.74pt
+ -> ptmr7t
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+Requested font "ptmb7t" at 20.74pt
+ -> ptmb7t
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+Requested font "ptmb7t" at 35.83pt
+ -> ptmb7t
+Requested font "ptmri7t" at 24.88pt
+ -> ptmri7t
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
+Requested font "ptmb7t" at 24.88pt
+ -> ptmb7t
+Requested font "ptmr7t" at 29.86pt
+ -> ptmr7t
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <29.86> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
+Requested font "ptmb7t" at 29.86pt
+ -> ptmb7t
+Requested font "cmr17" at 20.74pt
+ -> cmr17
+Requested font "cmr12" at 14.4pt
+ -> cmr12
+Requested font "cmmi12" at 24.88pt
+ -> cmmi12
+Requested font "cmmi12" at 20.74pt
+ -> cmmi12
+Requested font "cmmi12" at 14.4pt
+ -> cmmi12
+Requested font "cmsy10" at 24.88pt
+ -> cmsy10
+Requested font "cmsy10" at 20.74pt
+ -> cmsy10
+Requested font "cmsy10" at 14.4pt
+ -> cmsy10
+Requested font "cmex10" at 24.88pt
+ -> cmex10
+Requested font "cmex10" at 20.74pt
+ -> cmex10
+Requested font "cmex10" at 14.4pt
+ -> cmex10
+LaTeX Font Info:    Try loading font information for U+msa on input line 125.
+(C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+Requested font "msam10" at 24.88pt
+ -> msam10
+Requested font "msam10" at 20.74pt
+ -> msam10
+Requested font "msam10" at 14.4pt
+ -> msam10
+LaTeX Font Info:    Try loading font information for U+msb on input line 125.
+
+(C:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Requested font "msbm10" at 24.88pt
+ -> msbm10
+Requested font "msbm10" at 20.74pt
+ -> msbm10
+Requested font "msbm10" at 14.4pt
+ -> msbm10
+Requested font "cmbx12" at 24.88pt
+ -> cmbx12
+Requested font "cmbx12" at 20.74pt
+ -> cmbx12
+Requested font "cmbx12" at 14.4pt
+ -> cmbx12
+
+Overfull \hbox (51.61647pt too wide) in paragraph at lines 158--167
+[][] 
+ []
+
+File: figures/placeholder.jpg Graphic file (type QTm)
+<use  "figures/placeholder.jpg" >
+File: figures/placeholder.jpg Graphic file (type QTm)
+ <use  "figures/placeholder.jpg" >
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 212.
+
+
+(C:\CTEX\MiKTeX\tex\latex\psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <24.88> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 212.
+
+(D:\MyProject\高二研学\nlp\poster\template\conference_poster_6.bbl)
+[1
+
+] (D:\MyProject\高二研学\nlp\poster\template\conference_poster_6.aux) ) 
+Here is how much of TeX's memory you used:
+ 3523 strings out of 430478
+ 49458 string characters out of 3191503
+ 149847 words of memory out of 3000000
+ 6630 multiletter control sequences out of 15000+200000
+ 17173 words of font info for 51 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 36i,8n,38p,860b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on conference_poster_6.pdf (1 page).

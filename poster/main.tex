@@ -1,0 +1,63 @@
+\documentclass[a0,portrait,20pt]{a0poster}
+\usepackage{ctex}
+\usepackage{multicol}
+\columnsep=100pt
+\columnseprule=3pt
+\usepackage[svgnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{amsfonts, amsmath, amsthm, amssymb}
+\usepackage{wrapfig}
+\begin{document} \large
+	\begin{minipage}[b]{0.75\linewidth}
+		\veryHuge \color{NavyBlue} \textbf{对单词模糊查询问题的初步探索} \color{Black}\\ % Title
+		 % Subtitle
+		\huge \textbf{张子禾 \& 杨晨 \& 于宸锴}\\[0.5cm] % Author(s)
+		\huge 中国人民大学附属中学\\[0.4cm] % University/organization
+		\huge 指导教师：庄丽\\[0.5cm]
+	\end{minipage}
+	\begin{minipage}[b]{0.25\linewidth}
+		\Huge 课题编号：161\\[2cm]
+	\end{minipage}
+	\vspace{1cm}
+	\begin{multicols}{2}
+		\color{SaddleBrown}
+		\section*{引言}
+		我们对单词模糊查询问题做了初步探索，尝试了经典的动态规划算法和局部敏感哈希算法。动态规划算法具有准确，效率低的特点，不过用较低的效率换取极高的准确率这种做法在实用的角度上来讲是值得的，经过各种优化的动态规划算法目前较为主流，相对地，局部敏感哈希算法起到了一种常数优化的作用，在某种程度上缩小查询范围，然后在小范围里再使用经典的动态规划算法，局部敏感哈希算法视具体实现而定，在效率和准确率上都具有很大的弹性，但是，想要在两方面都做得很好是极其困难的，目前这种算法在学术界还没有什么流行的实现方法，对这种算法的研究还处于探索阶段。我们对这种算法的某些模块进行了粗糙的实现，做了相应的实验，在其改进上没有得到太好的结果。
+		\color{DarkSlateGray}
+		\section{特征与测度的选择}
+		目前比较流行的做法是采用$n$-gram模型作为特征，编辑距离作为测度。
+		\par $n$-gram模型，即将字符串中每一个长度为$n$的子串拿出来，组成一个集合，在单词模糊查询问题中，$n$一般取得较小，大概为$3$左右。
+		\par 两个字符串的编辑距离，即将一个字符串变为另一个字符串最少需要进行插入，删除，修改一个字符的次数和。
+		\section{经典算法}
+		\subsection*{经典的动态规划算法}
+		求两个字符串$A,B$的编辑距离有一个经典的动态规划算法，其思想是求出$A$的所有前缀和B的所有前缀之间的编辑距离，对于$A$的长度为$i$的前缀和$B$的长度为$j$的前缀，令其答案为$F(i,j)$，则$F(i,j)$容易由$F(i-1,j),F(i,j-1)$和$F(i-1,j-1)$求出。
+		\par 如果我们把所查询的单词和词典中的每一个单词用该算法求出编辑距离，取距离前若干小的单词就得到正确结果了。
+		\par 这个算法的优势在于能够给出基于编辑距离的准确解，然而代价是牺牲了较大的时间效率。
+		\subsection*{改进的动态规划算法}
+		上述算法事实上可以用一种专门处理大量字符串的数据结构优化，在此不做赘述。
+		\par 优化后的算法改进了时间效率，但是内存消耗较大。
+		\subsection*{可能的改进}
+		\begin{itemize}
+			\item 对于词典较大的情况，有许多生僻词汇，于是可以根据单词出现的概率，为每一个单词赋上权值，降低生僻词汇的出现概率
+			\item 编辑距离中插入、删除、替换对应的错误发生的概率不同，可以为每种错误（如少打“e”，错将“s”打为“d”）赋上权值，以增加查询的准确率
+		\end{itemize}
+		\par 上述两个优化能够加入到经典的动态规划算法中
+		\section{局部敏感哈希算法}
+		我们将问题做进一步简化，即判断两个集合的相似成度，大家普遍采用Jaccard相似度这一概念。
+		\subsection*{Jaccard相似度}
+		对于两集合$A,B$，定义其Jaccard相似度为$$ J(A,B)=\frac{|A \cap B|}{|A \cup B|}$$
+		\subsection*{哈希函数}
+		哈希函数是任何能将任意长度数据映射到定长数据的函数。它的值一般叫作哈希值。
+		\subsection*{Minhash}
+		考虑所有集合的所有可能出现的元素，称其为全集$U$，我们可以从一种特殊的角度来考虑如何计算两个集合的Jaccard相似度，即遍历所有全集中的元素，不过这样代价必定是非常高的。但是我们可以采用类似的办法来估计Jaccard相似度，随机取一个$U$的排列$P$，可以将其看成一个映射$P:U\to \{1,\ldots,|U|\}$，考虑一个集合$S$中$P$值最小的元素，记为$h_S$，对于两个集合$A,B$来说，$h_A$和$h_B$相等的概率即为其Jaccard相似度，证明不是很困难，留给读者作为习题。于是我们随机选取若干个这样的$U$的排列就可以估计Jaccard相似度了，但是问题在于$|U|$的数量级一般都比较大，生成一个随机的排列很困难，所以我们可以随机选取一个$\{1,\ldots,|U|\}$到它自身的哈希函数来近似一个随机排列。
+		\subsection*{局部敏感哈希}
+		再回到我们最初要做的事情：给一个集合，从若干个集合即词典里选出和它的Jaccard相似度最大的集合。一个朴素的想法是对当前的查询集合先做一遍Minhash，然后把它的若干个哈希值和词典中的集合的若干个哈希值逐一比对，选出其中哈希值的相同个数比较多的再两两计算Jaccard相似度，不过这样做还是比较慢的。我们可以把所有哈希函数分成若干组，把每一组中哈希值完全相同的集合划分成若干个聚类，这样对于要查询的集合我们只要遍历每一组，找到和它的这些哈希值完全相同的聚类中的元素在仔细比对即可。不过这个优化是一个很重口味，很粗糙的优化，我们做了实验，效果也很不好。不过在工业界，现实就是这样，码农们每天以卡常数为生，目前那些主流的搜索引擎中的实现不知是他们卡了多少年才卡出来的效果。但是我对这个领域的了解也不是很深入，不知道还有没有更加优秀的算法，比如说一些经过改进的自动机之类的，如果读者对这方面的研究比较有了解欢迎与我交流。
+		\begin{center}\vspace{1cm}
+			\includegraphics[width=0.8\linewidth]{asd}
+			\includegraphics[width=0.8\linewidth]{sdf}
+			\captionof{figure}{一些实验数据}
+		\end{center}\vspace{1cm}
+	\end{multicols}
+\end{document}
